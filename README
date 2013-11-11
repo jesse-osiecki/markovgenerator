@@ -1,1 +1,5 @@
 This is loosely based on http://agiliq.com/blog/2009/06/generating-pseudo-random-text-with-markov-chains-u/ 
+
+run ./markovgen2.py rows_text length_lines markov_chain_length
+
+this is used to observe the effects that the length of a given markov chain has on the quility of text. Notably with a long chain and vastly different training sets, the text can jump from entirely one to entirely the other
